@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: python-app
-        image: docker.io/dineshdview/python-app:latest   # 🔥 we will change this
+        image: docker.io/dineshdview/python-app:test1   # 🔥 we will change this
         ports:
         - containerPort: 5000
         readinessProbe:
